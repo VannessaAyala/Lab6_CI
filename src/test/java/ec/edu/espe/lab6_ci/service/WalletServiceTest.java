@@ -28,6 +28,8 @@ public class WalletServiceTest {
         riskClient = Mockito.mock(RiskClient.class);
         walletService = new WalletService(walletRepository, riskClient);
     }
+    //comentrio
+
 
     @Test
     void createWallet_validData_shouldSaveAndReturnResponse() {
