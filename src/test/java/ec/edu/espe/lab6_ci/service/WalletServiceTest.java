@@ -29,6 +29,8 @@ public class WalletServiceTest {
         walletService = new WalletService(walletRepository, riskClient);
     }
 
+    //Comentario
+
     @Test
     void createWallet_validData_shouldSaveAndReturnResponse() {
         //Arrange
